@@ -10,5 +10,6 @@ let dbconnection = mysql2.createPool({
     port: process.env.PORT,
   });
   
+  // module.exports = dbconnection
 
-  module.exports = dbconnection.promise()
+   module.exports = dbconnection.promise()
