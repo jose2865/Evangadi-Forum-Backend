@@ -12,4 +12,4 @@ let dbconnection = mysql2.createPool({
   
   // module.exports = dbconnection
 
-   module.exports = dbconnection.promise()
+   module.exports = dbconnection
